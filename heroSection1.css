@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    z-index: -3;
+}
+h2{
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+header{
+
+    background-color: white;
+    
+}
+nav{
+    max-width: 1687px;
+    display: flex;
+    justify-content:space-between;
+    padding: 12px 68px;
+    margin: auto;
+}
+#btnSignUp{
+    background: #4690E5;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 18px 24px 16px 24px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+/* ######################## Hero Section ################################## */
+#hero-section {
+    background: linear-gradient(#091826,#1A2A61 );
+    
+    color: white;
+    padding: 40px 18px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    overflow: hidden;
+}
+
+/* ----- hero left ----- */
+
+.hero-txt-btn-box{
+    background: linear-gradient(124.42deg, rgba(0, 0, 0, 0.36) 5.12%, rgba(0, 0, 0, 0.0675) 102.99%);
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    border-radius: 24px;
+    padding: 40px 56px;
+    width: 48vw;
+    max-width: 950px;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px ;
+}
+.hero-container{
+    display: flex;
+    gap: 27px;
+}
+.hero-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 645px;   
+    
+
+}
+
+.hero-text-box p{
+font-family: "DM Sans", sans-serif;
+font-weight: 600;
+font-size: 18px;
+}
+.hero-btn-box{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+
+.btn{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+}
+#btnDemo{
+    background: #5BC6B8;
+
+}
+#btnAudit{
+background: #4690E5;
+}
+
+/* ----- hero right ----- */
+
+.right-images{
+     margin-top: 27px;
+}
+.right-images img{
+    width: 45vw;
+    max-width: 710px;
+}
+
+.logos{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255,0.8);
+    padding: 24px 24px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 12px;
+    min-width: 600px ;
+    overflow: hidden;
+    gap: 24px;
+    max-width: 1687px;
+}
+
+
+
+
+

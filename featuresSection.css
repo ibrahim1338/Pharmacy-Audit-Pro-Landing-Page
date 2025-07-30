@@ -1,0 +1,176 @@
+.features{
+    background: #1A2A61;
+    position: relative;
+    z-index: -2;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.plusPattern {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    opacity: 30%;
+    color: #B0B0B0;
+    width: 23vw;
+;
+}
+.features-top-text {
+            /* max-width: 1200px; */
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+
+        .features-heading {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.1;
+            padding: 40px 0px 27px 0px;
+            color: white;
+            margin: 0px 20px;
+        }
+
+        .features-subtitle {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            padding-bottom:58px ;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1;
+            max-width: 514px;
+            margin: auto;
+
+        }
+
+.features-content{
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    
+}
+
+        .feature-cards-container{
+            /* margin-top: 100px; */
+            margin-left: 10px;
+            display: flex;
+            gap: 12px;
+            margin-top: 27px;
+        }
+        .feature-cards{ 
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            color: #111827;
+            width: fit-content;
+            text-wrap: nowrap;
+
+        }
+        .feature{
+            padding: 20px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: left;
+            border-radius: 8px
+        }
+        .feature h4, .small-feature h4{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+
+        }
+        .feature p, .small-feature p{
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #373D45;
+        }
+        .green-feature{
+            background: #C0E6C8;
+
+        }
+        .peach-feature{
+            background: #FAEDC9;
+        }
+        .grey-feature{
+            background: #E7F8F7;
+        }
+        .grey2-feature{
+            background: #F1F9FD;
+        }
+        .green-box{
+            background: #C0E6C8;
+        }
+
+        
+        .screenShot-box-container{
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            /* max-width: 750px; */
+        }
+        .screenShot-box{
+            /* width: 750px; */
+            /* height: 705px; */
+            width: 45vw;
+            border-radius: 12px;
+            padding: 64px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } 
+        .screenShot-box img{
+            width: 40vw;
+            /* max-width: 650px; */
+        }  
+        .peach-box{
+            background: #FAEDC9;
+            padding-bottom: 0px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+ 
+
+
+        
+        #small-features{
+            display: none;
+        }
+
+.featureCards-container-small{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    justify-content: center;
+    /* min-width: 30vw; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    /* column-gap: 27px; */
+    row-gap: 27px;
+    column-gap: 27px;
+}     
+.small-feature{
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 27px;
+    border-radius: 5.4px;
+    max-width: 430px;
+}
+.small-features-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-wrap: nowrap;
+}
+.small-features-text h4{
+    text-align: left;
+}
+.small-feature img{
+        
+    width: 100%;
+
+}

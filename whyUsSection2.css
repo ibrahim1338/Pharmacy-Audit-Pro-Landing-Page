@@ -1,0 +1,93 @@
+.whyUsContainer {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 60px 50px;
+        }
+
+        .badge {
+            background-color: #4A90E2;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+     .whyUsContainer   h2 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            
+            color: #1A2A61;
+            letter-spacing: -1%;
+
+        }
+
+        .subtitle {
+            margin-top: 12px;
+            margin-bottom:27px ;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            color: #373D45;
+            max-width: 514px;
+
+        }
+
+        .whyUsfeatures {
+            display: flex;
+            gap: 27px;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+        .feature-card {
+            width: 250px;
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+            align-items:flex-start;
+            gap: 32px;
+            border-radius: 8px;
+            padding: 32px;
+            text-align: left;
+            /* width: 219px; */
+            box-shadow: 0px 2px 4px -2px #1118270F;
+            box-shadow: 0px 4px 8px -2px #1118271A;
+            font-family: DM Sans;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0%;
+
+
+        }
+
+        .feature-card.green {
+            background: #C0E6C8;
+        }
+
+        .feature-card.yellow {
+            background: #FAEDC9;
+
+        }
+
+        .feature-card.blue {
+            background: #E7F8F7;
+        }
+
+        
+
+        .feature-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2C3E50;
+            margin: 0;
+            line-height: 1.4;
+        }

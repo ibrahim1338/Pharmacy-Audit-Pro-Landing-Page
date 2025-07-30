@@ -1,0 +1,51 @@
+#whyItMatters {
+    padding:10px 0px 0px 20px;
+    position: relative;
+    background-color: #f7f6f6;
+}
+
+.whyItMatters-container{
+    
+    background-color: #E7F8F7;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.whyItMatters-left{
+    padding: 200px 20px 0px 50px;
+}
+
+.whyItMatters-left .text{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: fit-content;
+}
+
+.whyItMatters-container p{
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #373D45;
+    max-width: 430px;
+        
+}
+
+.whyItMatters-left .patterns{
+    display: flex;
+}
+.whyItMatters-left .patterns .plusPatterns{
+    margin-top: 5px;
+    opacity: 0.04;
+    width: 23vw;
+}
+.whyItMatters-right img{
+    margin: 100px 0px 0px 0px;
+    padding-right:70px ;
+    max-width: 920px;
+    width: 45vw;
+}
+
+
+

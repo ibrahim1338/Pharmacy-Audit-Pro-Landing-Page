@@ -1,0 +1,182 @@
+
+
+@media(max-width:1400px){
+    h1{
+        font-size: 54px;
+    }
+   .hero-text-box p{
+        font-size: 14px;
+    }
+    .growTogether-container h2{
+        font-size: 64px;
+    }
+}
+
+
+
+/* ######### break point ###############*/
+@media(max-width:1200px){
+    .hero-text-box p{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 42px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    
+    .btn{
+        font-size: 12px;
+        font-weight: 500;
+    }
+.screenShot-box{
+            
+            width: 42vw;
+            
+            padding-top: 120px;
+        } 
+        .screenShot-box img{
+            width: 35vw;
+            
+        }  
+    
+     .feature-cards .feature{
+        padding: 20px 12px;
+     }
+
+     .growTogether-container{
+    
+    padding: 27px 45px;
+    
+    gap: 12px;
+    margin: 0px 50px;
+
+}
+
+.growTogether-container h2{
+    font-size: 56px;
+}
+
+}
+
+/* ######### 1080p break point ########## */
+
+@media(max-width: 1080px){
+    #hero-section{
+        padding: 20px 12px; 
+
+    }
+    .hero-container{
+        gap: 15px;
+    }
+   
+    .hero-txt-btn-box{
+        padding: 40px 40px;
+    }
+    .hero-text-box p{
+        text-wrap: wrap;
+    }
+    h1{
+        font-size: 36px;
+
+    }
+    .hero-btn-box button{
+        font-size: 12px;
+    }
+    #large-features{
+        display: none;
+    }
+    #small-features{
+        display: block;
+    }
+    .growTogether-container h2{
+    font-size: 45px;
+}
+.whyItMatters-right img{
+    
+    padding-right:35px ;
+    width: 35vw;
+}
+}
+
+@media(max-width:768px){
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-txt-btn-box{
+        width: 90vw;
+        text-align: center;
+    }
+    .hero-btn-box{
+        flex-direction: column;
+    }
+    .right-images img{
+        width: 90vw;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .featureCards-container-small{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .small-feature{
+        width: 350px;
+    }
+
+    .whyItMatters-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 27px;
+
+    }
+    .whyItMatters-container img{
+        width: 90vw;
+        margin-top: 0px;
+        
+    }
+    .whyItMatters-left .patterns .plusPatterns{
+        display: none;
+
+    }
+    .whyItMatters-left{
+    padding: 30px 20px 0px 50px;
+}
+.reviews-heading{
+    font-size: 36px;
+}
+.growTogether-container {
+        padding: 50px 12px;
+    }
+.growTogether-container h2{
+    font-size: 36px;
+}
+footer {
+    padding: 24px 20px 40px 22PX;
+}
+.contactAndSocial{
+    flex-direction: column;
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: left;
+}
+.bottom-line{
+    flex-direction: column;
+    gap: 27px;
+}
+
+}
+@media(max-width:600px){
+    #btnSignUp{
+        display: none;
+    }
+    nav{
+    padding: 19px 8px;
+    }
+.logos img{
+    width: 25vw;
+}
+}
