@@ -19,52 +19,54 @@
         }
 
      .whyUsContainer   h2 {
-            font-family: "Montserrat", sans-serif;
+            font-family: "Montserrat";
             font-weight: 700;
-            
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            vertical-align: middle;
             color: #1A2A61;
-            letter-spacing: -1%;
-
         }
 
         .subtitle {
             margin-top: 12px;
-            margin-bottom:27px ;
+            margin-bottom:25px ;
             font-size: 16px;
             font-family: "Poppins", sans-serif;
             font-weight: 400;
-            color: #373D45;
-            max-width: 514px;
+            line-height: 1.5;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            max-width: 505px;
+            color: rgba(55, 61, 69, 1);
+
+
 
         }
 
         .whyUsfeatures {
             display: flex;
-            gap: 27px;
+            gap: 10px;
             justify-content: center;
-            flex-wrap: wrap;
+            padding: 10px 0px;
 
         }
 
         .feature-card {
-            width: 250px;
             display: flex;
             justify-content: left;
             flex-direction: column;
             align-items:flex-start;
-            gap: 32px;
+            gap: 10px;
+            width: 223px;
             border-radius: 8px;
-            padding: 32px;
+            padding: 30px;
             text-align: left;
-            /* width: 219px; */
+            color: rgba(17, 24, 39, 1);
             box-shadow: 0px 2px 4px -2px #1118270F;
             box-shadow: 0px 4px 8px -2px #1118271A;
-            font-family: DM Sans;
-            font-weight: 500;
-            font-style: Medium;
-            font-size: 18px;
-            line-height: 28px;
-            letter-spacing: 0%;
+
 
 
         }
@@ -85,9 +87,10 @@
         
 
         .feature-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: #2C3E50;
-            margin: 0;
-            line-height: 1.4;
+            font-family: "DM Sans";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            color: rgba(17, 24, 39, 1);
+            
         }

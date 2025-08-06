@@ -1,8 +1,12 @@
-html{
+html,body{
     scroll-behavior: smooth;
 }
 body{
     z-index: -3;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 h2{
     font-size: 48px;
@@ -22,29 +26,40 @@ button{
 }
 header{
 
-    background-color: white;
+    background: rgba(251, 251, 251, 1);
+
     
 }
 nav{
     max-width: 1687px;
     display: flex;
     justify-content:space-between;
-    padding: 12px 68px;
+    padding: 6px 30px 6px 68px;
     margin: auto;
+    align-items: center;
 }
 #btnSignUp{
     background: #4690E5;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1rem;
-    padding: 18px 24px 16px 24px;
+    height: 42px;
+    width: 139px;
+    line-height: 100%;
+    letter-spacing: 0%;
     border-radius: 6px;
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 12px;
+    text-wrap: nowrap;
+}
+#btnSignUp img{
+    height: 24px;
+    width: 24px;
 }
 
 
@@ -53,12 +68,11 @@ nav{
 #hero-section {
     background: linear-gradient(#091826,#1A2A61 );
     
-    color: white;
+    color: rgba(239, 240, 246, 1);
     padding: 40px 18px;    
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    display: flex;
     flex-direction: column;
     gap: 27px;
     overflow: hidden;
@@ -73,14 +87,23 @@ nav{
     gap: 27px;
     border-radius: 24px;
     padding: 40px 56px;
-    width: 48vw;
+    width: 48.47vw;
     max-width: 950px;
+    backdrop-filter: blur(8px);
+    /* align-items: center; */
+    justify-content: center;
+
 }
 
 h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 60px ;
+    font-family: "Montserrat";
+font-weight: 700;
+font-style: Bold;
+font-size: 60px;
+line-height: 122%;
+letter-spacing: 0px;
+text-transform: capitalize;
+max-width: 673px;
 }
 .hero-container{
     display: flex;
@@ -89,20 +112,22 @@ h1{
 .hero-text-box{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    max-width: 645px;   
+    gap: 40px;  
     
 
 }
 
 .hero-text-box p{
-font-family: "DM Sans", sans-serif;
-font-weight: 600;
+font-family: "DM Sans";
+font-weight: 500;
+font-style:normal;
 font-size: 18px;
+line-height: 122%;
+max-width: 586px;
+
 }
 .hero-btn-box{
     display: flex;
-    flex-direction: row;
     gap: 8px;
 }
 
@@ -110,14 +135,16 @@ font-size: 18px;
 
 .btn{
 
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1rem;
-    padding: 10px 14px;
-    border-radius: 6px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 17px 16px;
+    border-radius: 8px;
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 1);
+
 }
 #btnDemo{
     background: #5BC6B8;
@@ -133,22 +160,25 @@ background: #4690E5;
      margin-top: 27px;
 }
 .right-images img{
-    width: 45vw;
+    width: 45.56vw;
     max-width: 710px;
 }
 
 .logos{
     display: flex;
-    border: 1px solid rgb(255, 255, 255,0.8);
-    padding: 24px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 13px 56px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     border-radius: 12px;
     min-width: 600px ;
     overflow: hidden;
-    gap: 24px;
+    gap: 92px;
     max-width: 1687px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-left: 12px;
+
 }
 
 

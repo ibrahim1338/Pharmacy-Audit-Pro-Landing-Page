@@ -1,35 +1,8 @@
 
-
-@media(max-width:1400px){
-    h1{
-        font-size: 54px;
-    }
-   .hero-text-box p{
-        font-size: 14px;
-    }
-    .growTogether-container h2{
-        font-size: 64px;
-    }
-}
-
-
-
 /* ######### break point ###############*/
-@media(max-width:1200px){
-    .hero-text-box p{
-        font-size: 13px;
-    }
-    h1{
-        font-size: 42px;
-    }
-    h2{
-        font-size: 36px;
-    }
+/* @media(max-width:1200px){
+
     
-    .btn{
-        font-size: 12px;
-        font-weight: 500;
-    }
 .screenShot-box{
             
             width: 42vw;
@@ -58,10 +31,10 @@
     font-size: 56px;
 }
 
-}
+} */
 
 /* ######### 1080p break point ########## */
-
+/* 
 @media(max-width: 1080px){
     #hero-section{
         padding: 20px 12px; 
@@ -98,8 +71,8 @@
     padding-right:35px ;
     width: 35vw;
 }
-}
-
+} */
+/* 
 @media(max-width:768px){
     .hero-container{
         flex-direction: column;
@@ -168,8 +141,8 @@ footer {
     gap: 27px;
 }
 
-}
-@media(max-width:600px){
+} */
+/* @media(max-width:600px){
     #btnSignUp{
         display: none;
     }
@@ -179,4 +152,4 @@ footer {
 .logos img{
     width: 25vw;
 }
-}
+} */
