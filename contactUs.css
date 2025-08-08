@@ -1,0 +1,393 @@
+html,body{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    z-index: -3;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+header{
+
+   background: rgba(26, 42, 97, 1);
+    
+}
+nav{
+    max-width: 1687px;
+    display: flex;
+    justify-content:space-between;
+    padding: 6px 30px 6px 68px;
+    margin: auto;
+    align-items: center;
+}
+.navBtnGroup{
+    display: flex;
+    gap: 10px;
+}
+.navBtnGroup button{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    height: 42px;
+    line-height: 100%;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+#btnSignUpContact{
+    color: rgba(26, 42, 97, 1);
+    width: 139px;
+    background: rgba(91, 198, 184, 1);
+    gap: 8px;
+  }
+ #btnSignUpContact:hover{
+  background: rgb(135, 245, 230);
+  
+}
+#btnSupportContact{
+ background: rgba(70, 144, 229, 1);
+ color:rgba(241, 248, 254, 1);
+ width: 137px;
+ gap: 4px;
+ 
+}
+#btnSupportContact:hover{
+  background: rgb(90, 167, 255);
+
+}
+#btnSignUp img{
+    height: 24px;
+    width: 24px;
+}
+
+.contactUs{
+       background: rgba(26, 42, 97, 1);
+       padding: 96px 96px 96px 0px;
+       display: flex;
+       gap: 32px;
+       padding-right: 32px;
+}
+.letsTalk{
+    background: rgba(70, 144, 229, 1);
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    width: 56.1vw;
+    overflow: hidden;
+}
+.letsTalkText{
+    width: fit-content;
+    margin: auto;
+    padding: 96px 32px 0px 32px;
+    height: fit-content;
+}
+.letsTalkText h1{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2px;
+    max-width: 674px;
+    padding-bottom: 14px;
+    
+}
+.letsTalkText p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    max-width: 659px;
+    padding-bottom: 5px;
+}
+.letsTalk img{
+position: relative;
+bottom: -5px;
+}
+
+/* conact */
+
+.formContainer {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 33.9vw;
+    text-align: center;
+    
+}
+
+.formContainer h2 {
+    color: #333;
+    margin-bottom: 8px;
+    font-family: "Montserrat","sans-serif";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.formContainer p {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 32px;
+    color: rgba(75, 85, 99, 1);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    width: calc(100% - 20px); /* Account for padding */
+    padding: 10px 12px;
+    margin-bottom: 27px;
+    border: 1px solid rgba(209, 213, 219, 1);
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 24px;
+    font-family: "Inter";
+}
+
+
+
+button {
+    font-family: "Inter";
+    font-size: 16px;
+    background: rgba(27, 42, 97, 1);/* Darker blue for button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Lighter blue on hover */
+}
+
+
+/* faq */
+.faq{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0px 96px 0px;
+}
+.faq-container {
+      max-width: 768px;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      background: #fff;
+      align-items: center;
+      justify-content: center; 
+      width: 100%;
+
+    }
+    .faq-title {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 36px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.01em;
+    }
+    .faq-subtitle {
+      font-size: 18px;
+      color: #6a6a6a;
+      text-align: center;
+      margin-bottom: 38px;
+      font-family: 'DM Sans', Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .faq-list {
+      
+      background: #fff;
+      overflow: hidden;
+      width: 100%;
+      
+    }
+
+    .faq-item {
+      border-top: 1px solid  rgba(243, 244, 246, 1);
+      padding: 24px;
+    }
+
+    .faq-question {
+      background: #fff;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.2s;
+      user-select: none;
+      width: 100%;
+    }
+    .faq-question:hover {
+      background: #f7f7fa;
+    }
+    .faq-answer {
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 1rem;
+      color:  rgba(75, 85, 99, 1);
+      line-height: 24px;
+      display: none;
+      background: #fff;
+      padding-top: 5px;
+    }
+    .faq-item.open .faq-answer {
+      display: block;
+    }
+
+    .faq-toggle {
+      margin-left: 16px;
+      transition: transform 0.2s;
+    }
+    .faq-item.open .faq-toggle {
+      transform: rotate(180deg);
+    }
+
+    /* Contact block */
+    .faq-contact-block {
+      
+      padding: 32px;
+      background:  rgba(249, 250, 251, 1);
+
+      border-radius: 16px;
+      text-align: center;
+      border: 1px solid #f3f3f3;
+      width: 84vw;
+
+    }
+    .faq-contact-title {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color:rgba(17, 24, 39, 1);
+
+    }
+    .faq-contact-desc {
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 16px;
+      color: rgba(75, 85, 99, 1);
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+    .faq-contact-btn {
+      background: rgba(91, 198, 184, 1);
+      color: rgba(17, 24, 39, 1);
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 1.07rem;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.18s;
+    }
+    .faq-contact-btn:hover {
+      background: #32aa6b;
+    }
+    /* Footer */
+    .footer {
+      width: 100%;
+      padding: 32px;
+      background: #fff;
+      font-family: 'Inter', Arial, sans-serif;
+      color: #7e7e7e;
+      text-align: left;
+      font-size: 16px;
+      border-top: 1px solid #f2f2f2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      width: 84vw;
+      margin: auto;
+    }
+    .footer-socials {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .footer-socials a {
+      color: #999;
+      
+      font-size: 1.22rem;
+      transition: color 0.17s;
+      text-decoration: none;
+    }
+    
+    @media (max-width: 700px) {
+      .faq-container, .faq-contact-block {
+        max-width: 97vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding: 18px 3vw 0 3vw;
+      }
+      .faq-title { font-size: 1.4rem;}
+      .faq-question { font-size: 1rem; padding: 17px 11px;}
+      .faq-answer { font-size: 0.97rem; padding: 0 11px 14px 11px;}
+      .faq-contact-block { padding: 18px 7px;}
+      .footer { font-size: 0.94rem;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      }
+    }
+
+    
