@@ -12,8 +12,9 @@ h2{
     font-size: 48px;
     font-family: "montserrat";
 }
-a{
+a,li{
     text-decoration: none;
+    list-style: none;
 }
 *{
     margin: 0px;
@@ -38,9 +39,33 @@ nav{
     margin: auto;
     align-items: center;
 }
-#btnSignUp{
-    background: #4690E5;
-    color: rgba(255, 255, 255, 1);
+.navRight{
+    display: flex;
+    gap: 38px;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.navLinks li a{
+    font-family: "Montserrat";
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(4, 13, 9, 1);
+
+
+}
+.navBtnGroup{
+    display: flex;
+    gap: 11px;
+}
+.navBtn{
+    
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -56,6 +81,15 @@ nav{
     align-items: center;
     gap: 12px;
     text-wrap: nowrap;
+}
+#btnSignUp{
+    background: #4690E5;
+    color: rgba(255, 255, 255, 1);
+}
+#btnContactUs{
+    background-color: transparent;
+    border: 1px solid rgba(70, 144, 229, 1);
+    color: rgba(70, 144, 229, 1);
 }
 #btnSignUp img{
     height: 24px;
