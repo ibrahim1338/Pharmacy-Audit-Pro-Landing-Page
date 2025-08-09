@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     gap: 58px;
-    /* padding: 0px 20px 0px 10px; */
 }
 .plusPattern {
     position: absolute;
@@ -16,7 +15,11 @@
     top: 0px;
     z-index: -1;
     opacity: 25%;
-
+    
+    
+}
+.feature-cards .feature{
+    padding:  20px 32px;
 
 }
 .features-top-text {
@@ -164,12 +167,12 @@
     justify-content: center;
 }     
 .small-feature{
-    padding: 20px 14px;
+    padding: 27px 14px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 27px;
+    gap: 25px;
     border-radius: 5.4px;
     max-width: 343px;
 }
@@ -186,6 +189,7 @@
 
 .small-features-text h4{
     text-align: left;
+    margin-bottom: 12px;
 }
 .small-feature img{
         

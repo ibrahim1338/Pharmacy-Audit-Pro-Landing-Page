@@ -89,6 +89,8 @@ nav{
     }
     .hero-container{
         flex-direction: column;
+        align-items: center;
+
     }
     .hero-txt-btn-box{
         width: 96vw;
@@ -134,7 +136,7 @@ nav{
         
     }
     .whyItMatters-left{
-        padding: 0px 10px;
+        padding: 0px 32px;
         margin: 40px 0px 0px 0px;
     }
     .whyItMatters-right {
@@ -154,7 +156,7 @@ nav{
 }
 
 .growTogether-container {
-        padding: 50px 12px;
+        padding: 32px 12px 50px 12px;
     }
 .growTogether-container h2{
     font-size: 36px;
@@ -222,12 +224,15 @@ h1{
 
     }
     #growTogther{
-        padding-top: 25px;
-        padding-bottom: 50px;
+        padding-top: 32px;
+        padding-bottom: 64px;
     }
-    .growTogether-container img{
+    .growTogether-container .growTogether-pattern{
         left: -216px;
         top: 170px;
+    }
+    .growTogether-container :nth-child(2){
+        width: 198px;
     }
     .growTogether-container h2{
         font-size: 36px;
