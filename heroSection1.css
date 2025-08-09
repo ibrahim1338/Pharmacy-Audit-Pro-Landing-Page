@@ -101,7 +101,6 @@ color: rgba(4, 13, 9, 1);
 /* ######################## Hero Section ################################## */
 #hero-section {
     background: linear-gradient(#091826,#1A2A61 );
-    
     color: rgba(239, 240, 246, 1);
     padding: 40px 18px;    
     display: flex;
@@ -111,6 +110,7 @@ color: rgba(4, 13, 9, 1);
     gap: 27px;
     overflow: hidden;
 }
+
 
 /* ----- hero left ----- */
 
@@ -124,8 +124,8 @@ color: rgba(4, 13, 9, 1);
     width: 48.47vw;
     max-width: 950px;
     backdrop-filter: blur(8px);
-    /* align-items: center; */
     justify-content: center;
+    text-align: left;
 
 }
 

@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 58px;
-    padding: 0px 20px 0px 10px;
+    /* padding: 0px 20px 0px 10px; */
 }
 .plusPattern {
     position: absolute;
@@ -34,10 +34,11 @@
         .features-heading {
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
+            font-size: 48px;
             line-height: 60px;
-            padding: 40px 20px 0px 20px;
+            padding-top: 40px;
             color: rgba(255, 255, 255, 1);
-            margin: 0px 20px;
+            max-width: 865px;
         }
 
         .features-subtitle {
@@ -74,7 +75,6 @@
 
         }
         .feature{
-            padding: 20px 32px;
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -144,23 +144,24 @@
  
 
 
-        
-        #small-features{
-            display: none;
-        }
-
-.featureCards-container-small{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+#small-features{
+    display: none;
     align-items: center;
     justify-content: center;
+}
+
+.featureCards-container-small{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /* min-width: 30vw; */
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 50px;
     /* column-gap: 27px; */
-    row-gap: 27px;
-    column-gap: 27px;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
 }     
 .small-feature{
     padding: 20px 14px;
@@ -170,19 +171,26 @@
     justify-content: center;
     gap: 27px;
     border-radius: 5.4px;
-    max-width: 430px;
+    max-width: 343px;
 }
-.small-features-text{
+.small-features-top-text{
     display: flex;
     flex-direction: column;
     gap: 12px;
-    text-wrap: nowrap;
+    margin-bottom: 40px;
 }
+.small-features-top-text h2{       
+     max-width: 590px;
+
+}
+
 .small-features-text h4{
     text-align: left;
 }
 .small-feature img{
         
-    width: 100%;
+    width: 319px;
+    position: relative;
+    align-self: center;
 
 }

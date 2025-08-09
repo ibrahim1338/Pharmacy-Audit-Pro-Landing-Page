@@ -1,8 +1,13 @@
 
 /* ######### break point ###############*/
-/* @media(max-width:1200px){
+ @media(max-width:1280px){
 
-    
+h1{
+    font-size: 54px;
+}
+.feature-cards-container{
+    margin-top: 30px;
+}
 .screenShot-box{
             
             width: 42vw;
@@ -30,32 +35,28 @@
 .growTogether-container h2{
     font-size: 56px;
 }
+ }
 
-} */
+/* ######### 1024px break point ########## */
 
-/* ######### 1080p break point ########## */
-/* 
-@media(max-width: 1080px){
-    #hero-section{
-        padding: 20px 12px; 
-
+@media(max-width: 1024px){
+    .hero-btn-box{
+        flex-direction: column;
     }
     .hero-container{
         gap: 15px;
     }
    
-    .hero-txt-btn-box{
+    /* .hero-txt-btn-box{
         padding: 40px 40px;
-    }
-    .hero-text-box p{
-        text-wrap: wrap;
-    }
+    } */
+    
     h1{
         font-size: 36px;
 
     }
     .hero-btn-box button{
-        font-size: 12px;
+        font-size: 14px;
     }
     #large-features{
         display: none;
@@ -63,22 +64,34 @@
     #small-features{
         display: block;
     }
+    .whyUsContainer h2,.features-heading,.whyItMatters-left h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .reviews-heading {
+        font-size: 36px
+    }
     .growTogether-container h2{
     font-size: 45px;
 }
 .whyItMatters-right img{
     
-    padding-right:35px ;
-    width: 35vw;
+    width: 42vw;
 }
-} */
-/* 
+} 
+
 @media(max-width:768px){
+    .navRight{
+        display: none;
+    }
+nav{
+    padding: 19px 8px;
+    }
     .hero-container{
         flex-direction: column;
     }
     .hero-txt-btn-box{
-        width: 90vw;
+        width: 96vw;
         text-align: center;
     }
     .hero-btn-box{
@@ -87,40 +100,59 @@
     .right-images img{
         width: 90vw;
     }
-    h2{
+    .whyUsContainer h2,.features-heading,.whyItMatters-left h2{
         font-size: 28px;
+        line-height: 38px;
+    }
+    .whyUsfeatures  {
+        flex-direction: column;
+        gap: 42px;
     }
     .featureCards-container-small{
         display: flex;
         flex-direction: column;
 
     }
-    .small-feature{
-        width: 350px;
+    
+    
+    #whyItMatters{
+        padding: 0px;
     }
-
     .whyItMatters-container{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 27px;
-
-    }
-    .whyItMatters-container img{
-        width: 90vw;
-        margin-top: 0px;
+        gap: 40px;
         
     }
+    
+    .whyItMatters-container img{
+        width: 96.5vw;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        
+        
+    }
+    .whyItMatters-left{
+        padding: 0px 10px;
+        margin: 40px 0px 0px 0px;
+    }
+    .whyItMatters-right {
+    margin: 0px;
+    padding-right: 0px;
+}
     .whyItMatters-left .patterns .plusPatterns{
         display: none;
 
     }
-    .whyItMatters-left{
-    padding: 30px 20px 0px 50px;
-}
+    
 .reviews-heading{
     font-size: 36px;
 }
+#reviews {
+    padding: 50px 10px 30px 10px;
+}
+
 .growTogether-container {
         padding: 50px 12px;
     }
@@ -141,15 +173,69 @@ footer {
     gap: 27px;
 }
 
-} */
-/* @media(max-width:600px){
-    #btnSignUp{
-        display: none;
-    }
-    nav{
-    padding: 19px 8px;
-    }
-.logos img{
-    width: 25vw;
 }
-} */
+ 
+@media(max-width:600px){
+
+#hero-section{
+    gap: 10px;
+}
+.logos{
+    padding: 10px 22px;
+    gap: 35px;
+    margin-bottom: 32px;
+}
+.logos img{
+    height: 18px;
+    
+}
+
+.hero-container{
+    gap: 10px;
+}
+h1{
+    font-size: 28px;
+}
+.hero-text-box{
+    gap: 12px;
+}
+.hero-txt-btn-box {
+        padding: 28px 32px;
+    }
+.whyUsContainer{
+        padding: 16px 50px;
+}
+.features{
+    margin-top: 0px;
+}
+    .small-features-top-text{
+        text-wrap: wrap;
+        padding: 0px 30px;
+    }
+    .reviews-heading{
+        font-size: 28px;
+        line-height: 37px;
+        letter-spacing: 0.03px;
+    }
+    .reviews-container{
+        gap: 24px;
+
+    }
+    #growTogther{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .growTogether-container img{
+        left: -216px;
+        top: 170px;
+    }
+    .growTogether-container h2{
+        font-size: 36px;
+        line-height: 1.23;
+
+    }
+    .growTogether-container{
+        margin: 0px 20px;
+        gap: 36px;
+    }
+}
