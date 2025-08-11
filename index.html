@@ -24,9 +24,10 @@
     <!-- ######### Nav Bar ############# -->
     <header>
         <nav>
-            <a href="./index.html"><img src="./Assets/Icons/logo.svg" alt="Logo"></a>
+            <a href="./index.html"><img class="logo" src="./Assets/Icons/logo.svg" alt="Logo"></a>
 
             <div class="navRight">
+
                 <ul class="navLinks">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#">Pricing</a></li>
@@ -34,10 +35,26 @@
                 <div class="navBtnGroup">
                     <a href="./contactUs.html" class="navBtn" id="btnContactUs"> Contact Us</a>
                     <a href="https://pharmacyauditpro.com/sign-up" class="navBtn" id="btnSignUp"> SIGN UP <img src="./Assets/Icons/arrow.svg" alt="signUpButton"></a>
+
                 </div>
+
+                <img class="hamburger" id="hamburger" src="./Assets/Icons/hamburger.svg" alt="">
+                <img class="closeHamburger" id="closeHamburger" src="./Assets/Icons/closeHamburger.svg" alt="">
             </div>
 
             
+        </nav>
+
+        <nav id="navCollapsable">
+            <ul class="navLinksSmall">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <div class="navBtnGroupSmall">
+                    <a href="./contactUs.html" class="navBtn" id="btnContactUs"> Contact Us</a>
+                    <a href="https://pharmacyauditpro.com/sign-up" class="navBtn" id="btnSignUp"> SIGN UP <img src="./Assets/Icons/arrow.svg" alt="signUpButton"></a>
+
+                </div>
         </nav>
     </header>
 
@@ -368,5 +385,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
