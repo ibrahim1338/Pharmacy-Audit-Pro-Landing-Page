@@ -49,6 +49,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
 }
 #btnSignUpContact{
     color: rgba(26, 42, 97, 1);
@@ -58,23 +59,21 @@ nav{
   }
  #btnSignUpContact:hover{
   background: rgb(135, 245, 230);
-  
+  transform: scale(103%);
 }
 #btnSupportContact{
- background: rgba(70, 144, 229, 1);
- color:rgba(241, 248, 254, 1);
- width: 137px;
- gap: 4px;
- 
+  background: rgba(70, 144, 229, 1);
+  color:rgba(241, 248, 254, 1);
+  width: 137px;
+  gap: 4px;
+  
 }
 #btnSupportContact:hover{
+  transform: scale(103%);
   background: rgb(90, 167, 255);
 
 }
-#btnSignUp img{
-    height: 24px;
-    width: 24px;
-}
+
 
 .contactUs{
        background: rgba(26, 42, 97, 1);
