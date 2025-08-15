@@ -14,13 +14,19 @@ body{
     /* align-items: center; */
     justify-content: center;
 }
-a{
+a,li{
     text-decoration: none;
+    list-style: none;
 }
 header{
 
    background: rgba(26, 42, 97, 1);
+   transition: 0.2s ease-in-out;
     
+}
+#navCollapsable{
+  background-color: rgba(26, 42, 97, 1);
+  transition: 0.2s ease-in-out;
 }
 nav{
     max-width: 1687px;
@@ -87,13 +93,15 @@ nav{
     border-top-right-radius: 33px;
     border-bottom-right-radius: 33px;
     width: 56.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     overflow: hidden;
 }
 .letsTalkText{
     width: fit-content;
     margin: auto;
     padding: 96px 32px 0px 32px;
-    height: fit-content;
 }
 .letsTalkText h1{
     color: rgba(255, 255, 255, 1);
@@ -119,7 +127,6 @@ nav{
 }
 .letsTalk img{
 position: relative;
-bottom: -5px;
 }
 
 /* conact */
@@ -181,7 +188,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 select{
-    width: calc(100% - 20px); /* Account for padding */
+     /* Account for padding */
     padding: 10px 12px;
     margin-bottom: 27px;
     border: 1px solid rgba(209, 213, 219, 1);
@@ -228,6 +235,7 @@ button:hover {
       align-items: center;
       justify-content: center; 
       width: 100%;
+      padding: 0px 20px;
 
     }
     .faq-title {
@@ -257,7 +265,7 @@ button:hover {
 
     .faq-item {
       border-top: 1px solid  rgba(243, 244, 246, 1);
-      padding: 24px;
+      padding: 32px;
     }
 
     .faq-question {
@@ -370,23 +378,6 @@ button:hover {
       text-decoration: none;
     }
     
-    @media (max-width: 700px) {
-      .faq-container, .faq-contact-block {
-        max-width: 97vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
-        padding: 18px 3vw 0 3vw;
-      }
-      .faq-title { font-size: 1.4rem;}
-      .faq-question { font-size: 1rem; padding: 17px 11px;}
-      .faq-answer { font-size: 0.97rem; padding: 0 11px 14px 11px;}
-      .faq-contact-block { padding: 18px 7px;}
-      .footer { font-size: 0.94rem;
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      }
-    }
+    
 
     

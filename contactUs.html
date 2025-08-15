@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="./contactUs.css">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 <body>
      <header>
@@ -19,7 +21,18 @@
                 <a href="https://pharmacyauditpro.com/sign-up"><button class="" id="btnSignUpContact"> SIGN UP <img src="./Assets/Icons/arrowBlue.svg" alt="signUp Button"></button></a>
                 </div>
                 
+                <img class="hamburger" id="hamburger" src="./Assets/Icons/hamburgerWhite.svg" alt="">
+                <img class="closeHamburger" id="closeHamburger" src="./Assets/Icons/closeHamburgerWhite.svg" alt="">
             </button>
+        </nav>
+
+         <nav id="navCollapsable">
+                <div class="navBtnGroupSmall">
+                    <a href="#contactUs"><button class="" id="btnSupportContact"><img src="./Assets/Icons/messenger.svg" alt="signUp Button"> Support </button></a>
+                
+                <a href="https://pharmacyauditpro.com/sign-up"><button class="" id="btnSignUpContact"> SIGN UP <img src="./Assets/Icons/arrowBlue.svg" alt="signUp Button"></button></a>
+
+                </div>
         </nav>
     </header>
 
@@ -29,7 +42,7 @@
                 <h1>Let’s Talk Compliance, Audits, and Peace of Mind.</h1>
                 <p>Have questions about how Pharmacy Audit Pro works? Need help getting started? Or just want to see how we can save your pharmacy from costly PBM clawbacks?</p>
             </div>
-        <img src="./Assets/Images/letsTalkAvatar.png" alt="">
+        <img src="./Assets/Images/supportAvatar01.png" alt="">
         </div>
 
         <div class="formContainer">
@@ -52,9 +65,9 @@
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
             
             <label for="message">Message</label>
-            <input type="tel" id="phone" name="phone" placeholder="Type your Message">
+            <input type="text" id="message" name="phone" placeholder="Type your Message">
 
-            <button type="submit">Sent</button>
+            <button type="submit">Send</button>
         </form>
     </div>
     </div>
@@ -65,7 +78,7 @@
     <div class="faq-container"> 
       <faq-topText>
 
-        <div class="faq-title">Frequently asked questions</div>
+        <div class="faq-title">Frequently Asked Questions</div>
         <div class="faq-subtitle">For any unanswered questions, reach out to our support team via email. We'll respond as soon as possible to assist you.</div>
       </faq-topText>
       <div class="faq-list">
@@ -184,29 +197,6 @@
     </div>
   </footer>
 
-  <script>
-    // Accordion functionality
-    document.querySelectorAll('.faq-question').forEach(function(q) {
-      q.addEventListener('click', function() {
-        let parent = q.parentElement;
-        let open = parent.classList.contains('open');
-        document.querySelectorAll('.faq-item').forEach(function(item) {
-          item.classList.remove('open');
-          item.querySelector('.faq-toggle').innerHTML =  `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 5V19M5 12H19" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`;
-        });
-        if (!open) {
-          parent.classList.add('open');
-          q.querySelector('.faq-toggle').innerHTML =`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5 12H19" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-
-`;
-        }
-      });
-    });
-  </script>
+ <script src="./script.js"></script>
 </body>
 </html> 

@@ -238,3 +238,126 @@ h1{
         gap: 36px;
     }
 }
+
+
+/* contact Us Responsive */
+
+@media(max-width: 1280px){
+    .letsTalk h1{
+        font-size: 54px;
+        line-height: 66px;
+    }
+    .formContainer{
+        max-width: 38vw;
+    }
+}
+@media(max-width: 1024px){
+    .letsTalk img{
+        width: 350px;
+    }
+    .letsTalk h1{
+        font-size: 48px;
+        line-height: 66px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .contactUs{
+        padding: 24px 24px 24px 0px;
+        gap: 16px;
+    }
+    .formContainer{
+        padding: 16px;
+    }
+    .letsTalkText{
+        padding: 32px 24px 0px 24px;
+    }
+    .letsTalk h1{
+        font-size: 40px;
+        line-height: 52px;
+    }
+      .faq-container, .faq-contact-block {
+        max-width: 97vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding: 18px 3vw 0 3vw;
+        gap: 24px;
+      }
+      .faq{
+        padding: 48px 0px;
+      }
+      .faq-item{
+        padding: 24px;
+      }
+      .faq-title { font-size: 24px;}
+      .faq-contact-block { padding: 32px;}
+      .footer { font-size: 0.94rem;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      }
+    }
+    @media (max-width: 600px) {
+      .contactUs{
+        flex-direction: column;
+        padding-right:0px ;
+      }
+      .letsTalk{
+        width: 92vw;
+      }
+      .letsTalk h1{
+        font-size: 28px;
+        line-height: 44px;
+        max-width: 400px;
+      }
+      .letsTalkText p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 400px;
+      }
+      .letsTalk img{
+        width: 180px;
+      }
+      .formContainer{
+        max-width: 85vw;
+        position: relative;
+        align-self: center;
+        padding: 24px;
+      }
+      .formContainer h2{
+        font-size: 24px;
+        line-height: 24px;
+      }
+      .formContainer p{
+        font-size: 12px;
+        line-height: 12px;
+        padding-bottom: 16px;
+      }
+      input[type="text"], input[type="email"], input[type="tel"], select{
+        margin-bottom: 12px;
+        font-size: 12px;
+        padding: 8px 10px;
+      }
+      label{
+        font-size: 12px;
+      }
+      form button{
+        font-size: 14px;
+        padding: 10px ;
+      }
+      .faq-item{
+        padding: 16px;
+      }
+      .faq-subtitle{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+      .faq-question{
+        font-size: 16px;
+      }
+      .faq-answer{
+        font-size: 14px;
+      }
+    }
