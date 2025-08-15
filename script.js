@@ -16,6 +16,47 @@ closeHamburger.addEventListener("click",function(){
     navSmall.style.display="none"
     
 })
+// ######## Scroll able features section with left numbers line activate and de-activate
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll(".screenShot-box");
+    const listNumbers = document.querySelectorAll(".list-number");
+
+    // Remove active classes from all .list-number and .list-number-inner
+    function clearActive() {
+        listNumbers.forEach(link => {
+            link.classList.remove("active");
+            const inner = link.querySelector(".list-number-inner");
+            if (inner) inner.classList.remove("active");
+        });
+    }
+
+    // IntersectionObserver options
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5 // section should be at least 50% visible
+    };
+
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.getAttribute("id");
+                clearActive();
+                const activeLink = document.querySelector(`.list-number[href="#${id}"]`);
+                if (activeLink) {
+                    activeLink.classList.add("active");
+                    const inner = activeLink.querySelector(".list-number-inner");
+                    if (inner) inner.classList.add("active");
+                }
+            }
+        });
+    }, options);
+
+    // Observe each .screenShot-box
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
 
 
 

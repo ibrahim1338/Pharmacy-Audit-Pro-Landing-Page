@@ -7,7 +7,8 @@
     margin-top: 46px;
     display: flex;
     flex-direction: column;
-    gap: 58px;
+    gap: 77px;
+    max-height: 1220px;
 }
 .plusPattern {
     position: absolute;
@@ -48,8 +49,7 @@
             font-family: 'DM Sans', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 132%;
-            letter-spacing: 0%;
+            line-height: 1.315;
             text-align: center;
             vertical-align: middle;
             color: rgba(255, 255, 255, 1);
@@ -59,15 +59,85 @@
 
             .features-content{
                 display: flex;
-                gap:3.9vw;
+                gap:46px;
                 justify-content: center;
+                padding: 0px 32px 0px 10px;
+                overflow: scroll;
+                /* scroll-behavior: smooth;
+                scrollbar-width: 0px; */
                 
             }
+/* list number */
+.list-numbers-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.list-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.list-number:hover{
+    transform: scale(103%);
+}
+.list-number-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.list-number.active{
+    border: 3.19px solid;
+    background-color: transparent;
+}
+.list-number-inner.active{
+    border: 3.19px solid;
+    height: 52.5px;
+    width: 52.5px;
+}
+.list-number span{
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 700;
+    color: #040D09;
+
+}
+.list-line{
+    margin-top: 2px;
+    height: 102px;
+    width: 1.5px;
+    border-radius: 2px;
+    background-color: #dfdfdf;
+    z-index: -1;
+}
+.greenBorder.active{
+    border-color: #28A745;
+}
+.peachBorder.active{
+    border-color: #e1a500;
+}
+.greyBorder.active{
+    border-color: #00d3c5;
+}
+.grey2Border.active{
+     border-color: #0093dc;
+}
+
 
         .feature-cards-container{
             display: flex;
-            gap: 12px;
-            margin-top: 40px;
+            gap: 21px;
+            margin-top: 21px;
+            position: sticky;
+            top:25px;
         }
         .feature-cards{ 
             display: flex;
@@ -80,25 +150,32 @@
         .feature{
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 4px;
             text-align: left;
-            border-radius: 8px
+            line-height: 1.5;
+            border-radius: 8px;
+            transition: 0.2s ease-in-out;
 
         }
         .feature h4, .small-feature h4{
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             font-weight: 700;
-
+            vertical-align: top;
+            color: rgba(0,0,0,1);
         }
         .feature p{
             max-width: 432px;
         }
         .feature p, .small-feature p{
+            vertical-align: top;
             font-family: 'DM Sans', sans-serif;
             font-size: 16px;
             font-weight: 500;
-            color: #373D45;
+            color: rgba(0,0,0,1);
+        }
+        .feature:hover{
+            transform: scale(101%);
         }
         .green-feature{
             background: #C0E6C8;
@@ -122,11 +199,17 @@
             display: flex;
             flex-direction: column;
             gap: 27px;
-            /* max-width: 750px; */
+            width: 54.083%;
+            overflow: scroll;
+            scroll-behavior: smooth;
+            
+        }
+        
+        .screenShot-box-container::-webkit-scrollbar {
+            display: none;  /* Chrome, Safari, and Opera */
         }
         .screenShot-box{
-            /* width: 750px; */
-            /* height: 705px; */
+            width: 100%;
             border-radius: 12px;
             padding: 64px 15px;
             display: flex;
@@ -135,7 +218,7 @@
             
         } 
         .screenShot-box img{
-            width: 47vw;
+            width: 100%;
             /* max-width: 650px; */
         }  
         .peach-box{

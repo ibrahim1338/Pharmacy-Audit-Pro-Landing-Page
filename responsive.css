@@ -5,25 +5,10 @@
 h1{
     font-size: 54px;
 }
-.feature-cards-container{
-    margin-top: 30px;
-}
-.screenShot-box{
-            
-            width: 42vw;
-            
-            padding-top: 120px;
-        } 
-        .screenShot-box img{
-            width: 35vw;
-            
-        }  
-    
-     .feature-cards .feature{
-        padding: 20px 12px;
-     }
 
-     .growTogether-container{
+
+
+.growTogether-container{
     
     padding: 27px 45px;
     
@@ -122,6 +107,9 @@ nav .logo{
 
     }
     
+    #small-features{
+        max-height: fit-content;
+    }
     
     #whyItMatters{
         padding: 0px;
