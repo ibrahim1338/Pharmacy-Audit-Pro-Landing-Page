@@ -361,3 +361,429 @@ h1{
         font-size: 14px;
       }
     }
+
+    /* pricing responsive */
+
+    @media(max-width:1280px){
+        .pricing-container{
+            padding: 64px;
+        }
+        .logos-section{
+            padding: 48px 64px;
+            height: 181px;
+        }
+        .logos-container{
+            gap: 40px;
+        }
+        .logos-section img{
+            width: 250px;
+        }
+        .CTA-section{
+            padding: 64px 64px;
+        }
+        footer{
+            padding: 24px 64px 40px 64px;
+        }
+    }
+
+    @media(max-width:1024px){
+        
+        .pricing-hero-container{
+            gap: 24px;
+        }
+        .pricing-hero-heading{
+            font-size: 40px;
+            max-width: 700px;
+        }
+        .pricing-hero-subheading{
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .pricing-plans-container{
+            gap: 27px;
+        }
+        .pricing-container{
+            padding: 48px;
+            gap: 56px;  
+        }
+        .pricingType-heading :nth-child(1){
+            font-size: 18px;
+        }
+        .pricingType-heading{
+            margin-bottom: 12px;
+            gap: 6px;
+        }
+        .pricingType-heading :nth-child(2){
+            font-size: 12px;
+            padding: 7px 8px;
+        }
+        .pricingType-price{
+            margin-bottom: 24px;
+        }
+        .pricingType-price :nth-child(1){
+            font-size: 24px;
+        }
+        .pricingType-price :nth-child(2){
+            font-size: 14px;
+        }
+        .pricingType p{
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .pricingType a{
+            padding: 12px 12px;
+            font-size: 12px;
+            line-height: 1.2;
+        }
+        .pricing-table{
+            gap: 24px;
+        }
+        .pricing-table table td,.pricing-table table th{
+            font-size: 12px;
+        }
+        .pricing-table table tr{
+            padding: 12px 10px;
+        }
+        .pricing-table-BtnGroup a{
+            font-size: 12px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .pricing-table-BtnGroup{
+            gap: 16px;
+            padding: 0px 16px;
+
+        }
+        .logos-section{
+            padding: 36px 48px;
+            height: 151px;
+        }
+        .logos-section img{
+            width: 190px;
+        }
+        .CTA-section{
+            padding: 48px 48px;
+            height: 370px;
+        }
+        .CTA-container{
+            gap: 42px;
+        }
+        .CTA-section h2{
+            font-size: 32px;
+            line-height: 44px;
+        }
+        .CTA-left{
+            gap: 27px;
+        }
+        .CTA-left .email-container .email-box {
+            width: 243px;
+            height: 48px;
+        }
+        .CTA-left .email-container button{
+            height: 48px;
+            width: 48px;
+        }
+        
+    .CTA-left .email-container .email-box {
+        padding: 0px 12px;
+    }
+        .CTA-left .email-container .email-box .email-box-left input{
+            font-size: 12px;
+        }
+        .CTA-left .email-container .email-box .email-box-left input::placeholder{
+            font-size: 12px;
+        }
+        .CTA-section .CTA-right img{
+            width: 320px;
+        }
+        footer{
+            padding: 24px 48px 40px 48px;
+        }
+    }
+    @media(max-width:768px){
+        
+        .pricing-hero-container{
+            gap: 16px;
+        }
+        .pricing-hero-heading{
+            font-size: 32px;
+            line-height: 44px;
+            max-width: 490px;
+        }
+        .pricing-hero-subheading{
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .pricing-plans-container{
+            gap: 27px;
+        }
+        .pricing-container{
+            padding: 32px;
+            gap: 32px;
+
+        }
+        .pricing-hero-btnBox{
+            width: 238px;
+            height: 40px;
+            border-radius: 12px;
+            padding: 3.5px;
+        }
+        .pricing-hero-btnBox button{
+            font-size: 11px;
+            border-radius: 9px;
+
+        }
+        .pricingTypesBox{
+            gap: 20px;
+        }
+        .pricingType-heading :nth-child(1){
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .pricingType-heading{
+            margin-bottom: 8px;
+            gap: 6px;
+        }
+        .pricingType-heading :nth-child(2){
+            font-size: 10px;
+            padding: 5px 6px;
+        }
+        .pricingType-price{
+            margin-bottom: 12px;
+        }
+        .pricingType-price :nth-child(1){
+            font-size: 20px;
+            line-height: 34px;
+        }
+        .pricingType-price :nth-child(2){
+            font-size: 11px;
+        }
+        .pricingType p{
+            font-size: 10px;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        .pricingType a{
+            padding: 8px;
+            font-size: 10px;
+            line-height: 1.2;
+            border-radius: 6px;
+        }
+        .pricing-table{
+            gap: 12px;
+        }
+        .pricing-table table td,.pricing-table table th{
+            font-size: 10px;
+        }
+        .pricing-table table tr{
+            padding: 12px 10px;
+            gap: 20px;
+        }
+        .pricing-table table tr img{
+            height: 12px;
+        }
+        .pricing-table-BtnGroup a{
+            font-size: 10px;
+            padding: 12px;
+            border-radius: 10px;
+            line-height: 14px;
+        }
+        .pricing-table-BtnGroup{
+            gap: 12px;
+            padding: 0px 12px;
+            height: 75px;
+
+        }
+        .logos-section{
+            padding: 32px 32px;
+            height: 101px;
+        }
+        .logos-section img{
+            width: 150px;
+        }
+        .CTA-section{
+            padding: 32px 32px;
+            height: 250px;
+        }
+        .CTA-container{
+            gap: 27px;
+        }
+        .CTA-section h2{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .CTA-left{
+            gap: 16px;
+        }
+        .CTA-left .email-container .email-box {
+            width: 210px;
+            height: 32px;
+        }
+        .CTA-left .email-container button{
+            height: 32px;
+            width: 32px;
+            border-radius: 10px;
+        }
+        .CTA-left .email-container img{
+            height: 13px;
+        }
+    .CTA-left .email-container .email-box {
+        padding: 0px 12px;
+        border-radius: 10px;
+    }
+        .CTA-left .email-container .email-box .email-box-left input{
+            font-size: 10px;
+        }
+        .CTA-left .email-container .email-box .email-box-left input::placeholder{
+            font-size: 10px;
+        }
+        .CTA-section .CTA-right img{
+            width: 250px;
+        }
+        footer{
+            padding: 24px 32px 40px 32px;
+        }
+    }
+    @media(max-width:600px){
+        
+        .pricing-hero-container{
+            gap: 12px;
+        }
+        .pricing-hero-heading{
+            font-size: 24px;
+            line-height: 30px;
+            max-width: 490px;
+        }
+        .pricing-hero-subheading{
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .pricing-plans-container{
+            gap: 12px;
+        }
+        .pricing-container{
+            padding: 16px;
+            gap: 24px;
+
+        }
+        .pricing-hero-btnBox{
+            width: 238px;
+            height: 40px;
+            border-radius: 12px;
+            padding: 3.5px;
+        }
+        .pricing-hero-btnBox button{
+            font-size: 11px;
+            border-radius: 9px;
+
+        }
+        .pricingTypesBox{
+            gap: 12px;
+        }
+        .pricingType-heading :nth-child(1){
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .pricingType-heading{
+            margin-bottom: 6px;
+            gap: 3px;
+        }
+        .pricingType-heading :nth-child(2){
+            font-size: 8px;
+            padding: 4px 5px;
+        }
+        .pricingType-price{
+            margin-bottom: 8px;
+        }
+        .pricingType-price :nth-child(1){
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .pricingType-price :nth-child(2){
+            font-size: 8px;
+            line-height: 8px;
+        }
+        .pricingType p{
+            font-size: 8px;
+            line-height: 12px;
+            margin-bottom: 8px;
+        }
+        .pricingType a{
+            padding: 6px 4px;
+            font-size: 8px;
+            line-height: 1.1;
+            border-radius: 5px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pricing-table{
+            gap: 8px;
+        }
+        .pricing-table table td,.pricing-table table th{
+            font-size: 7px;
+            line-height: 8px;
+        }
+        .pricing-table table tr{
+            padding: 3px;
+            gap: 12px;
+        }
+        .pricing-table table tr img{
+            height: 8px;
+        }
+        .pricing-table-BtnGroup a{
+            font-size: 8px;
+            padding: 6px 8px;
+            border-radius: 6px;
+            line-height: 10px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .pricing-table-BtnGroup{
+            gap: 12px;
+            padding: 16px 12px 0px 12px;
+            height: auto;
+
+        }
+        .logos-section{
+            padding: 24px;
+            height: 70px;
+            overflow: hidden;
+        }
+        .logos-section img{
+            width: 70px;
+        }
+        .CTA-section{
+            padding: 24px 24px 0px 24px;
+            height: fit-content;
+        }
+        .CTA-container{
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+        .CTA-section h2{
+            font-size: 20px;
+            line-height: 24px;
+            text-align:center ;
+        }
+        .CTA-left{
+            gap: 16px;
+            align-items: center;
+        }
+       
+        .CTA-left .email-container .email-box .email-box-left input{
+            font-size: 10px;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        footer{
+            padding: 24px 32px 40px 32px;
+        }
+    }
+

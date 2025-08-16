@@ -49,6 +49,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-items: center;
 }
 .pricing-hero-heading{
     color: rgba(30, 41, 59, 1);
@@ -81,7 +82,7 @@ header{
     justify-content: center;
 }
 .pricing-hero-btnBox button{
-    height: 48px;   
+    height: 100%;   
     width: 50%;   
     border-radius: 14px;
     background-color: transparent;
@@ -103,6 +104,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 48px;
+    align-items: center;
 }
 .pricingTypesBox{
     display: grid;
@@ -200,11 +202,11 @@ border-radius: 8px;
     color: rgba(26, 42, 97, 1);
 
 }
-.pricing-table{
+/* .pricing-table{
     display: flex;
     flex-direction: column;
     gap: 32px;
-}
+} */
 .pricing-table table{
     width: 100%;
     text-align: left;
@@ -215,6 +217,7 @@ border-radius: 8px;
     gap: 32px;
     border-bottom: 1px solid rgba(203, 213, 225, 1);
     padding: 16px 24px;
+    align-items: center;
 
 }
 
