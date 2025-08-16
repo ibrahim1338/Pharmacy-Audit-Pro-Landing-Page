@@ -679,6 +679,10 @@ h1{
         }
         .pricingTypesBox{
             gap: 12px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #empty{
+            display: none;
         }
         .pricingType-heading :nth-child(1){
             font-size: 12px;
@@ -750,12 +754,13 @@ h1{
 
         }
         .logos-section{
-            padding: 24px;
-            height: 70px;
+            padding: 12px;
+            height: 50px;
             overflow: hidden;
+            
         }
         .logos-section img{
-            width: 70px;
+            width: 100px;
         }
         .CTA-section{
             padding: 24px 24px 0px 24px;
@@ -763,7 +768,7 @@ h1{
         }
         .CTA-container{
             flex-direction: column;
-            gap: 8px;
+            gap: 4px;
             align-items: center;
         }
         .CTA-section h2{

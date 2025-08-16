@@ -107,6 +107,7 @@ color: rgba(4, 13, 9, 1);
 #hamburger,#closeHamburger {
     display: none;
     cursor: pointer;
+    padding-right: 16px;
 }
 
 .hidden{
