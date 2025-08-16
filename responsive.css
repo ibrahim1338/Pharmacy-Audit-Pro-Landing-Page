@@ -787,3 +787,147 @@ h1{
         }
     }
 
+    /* Terms and Conditions resposiveness */
+    @media(max-width:1024px){
+        .TAC-heading-container{
+            margin: 27px 0px 36px 0px;
+            height: 230px;
+        }
+        .TAC-heading-container h1{
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: 0px;
+        }
+        .TAC-heading-container img{
+            height: 90%;
+        }
+        .TAC-Content-container{
+            padding: 0px 64px 48px 16px;
+        }
+        .TAC-content-sidebar{
+            padding: 12px 4px 12px 4px;
+            top: 24px;
+        }
+        .TAC-content-sidebar ul li a{
+            padding: 12px 8px;
+        }
+    }
+
+@media(max-width:768px){
+    .TAC-heading-container{
+            margin: 27px 0px 36px 0px;
+            height: 190px;
+        }
+        .TAC-heading-container h1{
+            font-size: 30px;
+            line-height: 42px;
+            letter-spacing: 0.1px;
+        }
+
+        .TAC-Content-container{
+            padding: 0px 48px 36px 16px;
+            gap: 24px;
+        }
+        .TAC-Content-container a{
+            font-size: 14px;
+        }
+        .TAC-content-sidebar{
+            padding: 12px 4px 12px 4px;
+            gap: 12px;
+            top: 16px;
+        }
+        .TAC-content-sidebar ul li a{
+            padding: 8px 8px;
+            font-size: 14px;
+            line-height: 20px;
+            min-width: 175px;
+        }
+
+        .TAC-text-box{
+            gap: 16px;
+        }
+        .TAC-text-box h2{
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -0.5px;
+        }
+        .TAC-text-box p{
+            font-size: 14px;
+        }
+        .TAC-tableOfContents{
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+        .TAC-tableOfContents .heading{
+            padding-left: 16px;
+        }
+        .TAC-tableOfContents .heading h2{
+            font-size: 24px;
+        }
+        .TAC-tableOfContents ul li a{
+            padding: 8px 24px;
+        }
+}
+@media(max-width:600px){
+    .TAC-heading-container{
+            margin: 16px 0px 24px 0px;
+            height: 100px;
+            border-radius: 16px;
+        }
+        .TAC-heading-container h1{
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+        }
+
+        .TAC-Content-container{
+            padding: 0px 24px 24px 8px;
+            gap: 10px;
+        }
+       
+        .TAC-content-sidebar{
+            padding: 10px 4px 10px 4px;
+            gap: 12px;
+            top: 16px;
+        }
+        .TAC-content-sidebar ul li a{
+            padding: 4px 6px;
+            font-size: 10px;
+            line-height: 12px;
+            min-width: 122px;
+            border-radius: 4px;
+        }
+
+        .TAC-text-box{
+            gap: 8px;
+        }
+        .TAC-text-box h2{
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: -0.3px;
+        }
+        .TAC-text-box p{
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .TAC-tableOfContents{
+            margin-top: 12px;
+            margin-bottom: 16px;
+            gap: 4px;
+        }
+        .TAC-tableOfContents .heading{
+            padding-left: 10px;
+            border-width: 2px;
+        }
+        .TAC-tableOfContents .heading h2{
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .TAC-tableOfContents ul li a{
+            padding: 4px 16px;
+            font-size: 12px;
+        }
+        .TAC-Terms-container{
+            gap: 16px;
+        }
+}
